@@ -161,7 +161,7 @@ public class Preferences implements Constants{
         if (file.exists() && Build.VERSION.SDK_INT >= 22) {
             return false;
         } else {
-            return getPrefs(context).getBoolean(ADS_ENABLED, true);
+            return getPrefs(context).getBoolean(ADS_ENABLED, false);
         }
     }
     
@@ -256,10 +256,4 @@ public class Preferences implements Constants{
         editor.putString(OLD_CHANGELOG, value);
         editor.commit();
     }
-    
-    public static void setFirstRun(Context context, boolean value) {
-		SharedPreferences.Editor editor = getPrefs(context).edit();
-        editor.putBoolean(FIRST_RUN, value);
-        editor.commit();
-	}
 }
