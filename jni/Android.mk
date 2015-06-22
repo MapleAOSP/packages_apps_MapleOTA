@@ -2,6 +2,8 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 
+CFLAGS = -Wno-sign-compare
+CPPFLAGS = -Wno-sign-compare
 LOCAL_MODULE	:= libbypass
 LOCAL_MODULE_TAGS := optional
 
