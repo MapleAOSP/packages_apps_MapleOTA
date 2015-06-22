@@ -24,6 +24,8 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+        <include layout="@layout/card_app_header" />
+
         <include layout="@layout/card_update" />
 
         <include layout="@layout/card_no_update" />
