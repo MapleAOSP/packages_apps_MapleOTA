@@ -1,5 +1,6 @@
 /*/*
  * Copyright (C) 2015 Matt Booth (Kryten2k35).
+ * Copyright (C) 2015 Benzo Rom
  *
  * Licensed under the Attribution-NonCommercial-ShareAlike 4.0 International 
  * (the "License") you may not use this file except in compliance with the License.
@@ -14,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.ota.updates.download;
+package com.benzo.ota.download;
 
 import android.app.Activity;
 import android.app.DownloadManager;
@@ -24,10 +25,10 @@ import android.database.CursorIndexOutOfBoundsException;
 import android.os.AsyncTask;
 import android.util.Log;
 
-import com.ota.updates.activities.AvailableActivity;
-import com.ota.updates.activities.MainActivity;
-import com.ota.updates.utils.Constants;
-import com.ota.updates.utils.Preferences;
+import com.benzo.ota.activities.AvailableActivity;
+import com.benzo.ota.activities.MainActivity;
+import com.benzo.ota.utils.Constants;
+import com.benzo.ota.utils.Preferences;
 
 public class DownloadRomProgress  extends AsyncTask<Long, Integer, Void> implements Constants {
 	

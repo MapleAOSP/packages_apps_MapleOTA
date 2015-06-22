@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2015 Matt Booth (Kryten2k35).
+ * Copyright (C) 2015 Benzo Rom
  *
  * Licensed under the Attribution-NonCommercial-ShareAlike 4.0 International 
  * (the "License") you may not use this file except in compliance with the License.
@@ -14,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.ota.updates.utils;
+package com.benzo.ota.utils;
 
 import android.os.Environment;
 
@@ -25,7 +26,7 @@ public interface Constants {
 
 	// Storage
 	public static final String SD_CARD 								= Environment.getExternalStorageDirectory().getAbsolutePath();
-	public static final String OTA_DOWNLOAD_DIR 					= "OTAUpdates";
+	public static final String OTA_DOWNLOAD_DIR 					= "BenzoOTA";
 	public static final String INSTALL_AFTER_FLASH_DIR 				= "InstallAfterFlash";
 
 	// Networks
@@ -63,10 +64,10 @@ public interface Constants {
 	public static final String FIRST_RUN 							= "first_run";
 
 	// Broadcast intents
-	public static String MANIFEST_LOADED 							= "com.ota.update.MANIFEST_LOADED";
-	public static String MANIFEST_CHECK_BACKGROUND 					= "com.ota.update.MANIFEST_CHECK_BACKGROUND";
-	public static String START_UPDATE_CHECK 						= "com.ota.update.START_UPDATE_CHECK";
-	public static String IGNORE_RELEASE 							= "com.ota.update.IGNORE_RELEASE";
+	public static String MANIFEST_LOADED 							= "com.benzo.ota.MANIFEST_LOADED";
+	public static String MANIFEST_CHECK_BACKGROUND 					= "com.benzo.ota.MANIFEST_CHECK_BACKGROUND";
+	public static String START_UPDATE_CHECK 						= "com.benzo.ota.START_UPDATE_CHECK";
+	public static String IGNORE_RELEASE 							= "com.benzo.ota.IGNORE_RELEASE";
 
 	//Notification
 	public static final int NOTIFICATION_ID 						= 101;

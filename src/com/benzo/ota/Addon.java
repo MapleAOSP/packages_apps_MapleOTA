@@ -1,4 +1,4 @@
-package com.ota.updates;
+package com.benzo.ota;
 
 public class Addon {
 	

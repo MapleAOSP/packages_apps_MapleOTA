@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2015 Matt Booth (Kryten2k35).
+ * Copyright (C) 2015 Benzo Rom
  *
  * Licensed under the Attribution-NonCommercial-ShareAlike 4.0 International 
  * (the "License") you may not use this file except in compliance with the License.
@@ -14,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.ota.updates.tasks;
+package com.benzo.ota.tasks;
 
 import java.io.File;
 import java.io.IOException;
@@ -29,9 +30,9 @@ import org.xml.sax.helpers.DefaultHandler;
 import android.content.Context;
 import android.util.Log;
 
-import com.ota.updates.RomUpdate;
-import com.ota.updates.utils.Constants;
-import com.ota.updates.utils.Utils;
+import com.benzo.ota.RomUpdate;
+import com.benzo.ota.utils.Constants;
+import com.benzo.ota.utils.Utils;
 
 public class RomXmlParser extends DefaultHandler implements Constants {
 

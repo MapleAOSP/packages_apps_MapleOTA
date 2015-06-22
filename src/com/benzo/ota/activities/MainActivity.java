@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2015 Matt Booth (Kryten2k35).
+ * Copyright (C) 2015 Benzo Rom
  *
  * Licensed under the Attribution-NonCommercial-ShareAlike 4.0 International 
  * (the "License") you may not use this file except in compliance with the License.
@@ -14,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.ota.updates.activities;
+package com.benzo.ota.activities;
 
 import java.io.File;
 import java.text.SimpleDateFormat;
@@ -50,13 +51,13 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toolbar;
 
-import com.ota.updates.R;
-import com.ota.updates.RomUpdate;
-import com.ota.updates.tasks.Changelog;
-import com.ota.updates.tasks.LoadUpdateManifest;
-import com.ota.updates.utils.Constants;
-import com.ota.updates.utils.Preferences;
-import com.ota.updates.utils.Utils;
+import com.benzo.ota.R;
+import com.benzo.ota.RomUpdate;
+import com.benzo.ota.tasks.Changelog;
+import com.benzo.ota.tasks.LoadUpdateManifest;
+import com.benzo.ota.utils.Constants;
+import com.benzo.ota.utils.Preferences;
+import com.benzo.ota.utils.Utils;
 
 public class MainActivity extends Activity implements Constants{
 

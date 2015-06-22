@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2015 Matt Booth (Kryten2k35).
+ * Copyright (C) 2015 Benzo Rom
  *
  * Licensed under the Attribution-NonCommercial-ShareAlike 4.0 International 
  * (the "License") you may not use this file except in compliance with the License.
@@ -14,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.ota.updates.activities;
+package com.benzo.ota.activities;
 
 import in.uncod.android.bypass.Bypass;
 import android.annotation.SuppressLint;
@@ -42,15 +43,15 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.Toolbar;
 
-import com.ota.updates.R;
-import com.ota.updates.RomUpdate;
-import com.ota.updates.download.DownloadRom;
-import com.ota.updates.download.DownloadRomProgress;
-import com.ota.updates.tasks.GenerateRecoveryScript;
-import com.ota.updates.utils.Constants;
-import com.ota.updates.utils.Preferences;
-import com.ota.updates.utils.Tools;
-import com.ota.updates.utils.Utils;
+import com.benzo.ota.R;
+import com.benzo.ota.RomUpdate;
+import com.benzo.ota.download.DownloadRom;
+import com.benzo.ota.download.DownloadRomProgress;
+import com.benzo.ota.tasks.GenerateRecoveryScript;
+import com.benzo.ota.utils.Constants;
+import com.benzo.ota.utils.Preferences;
+import com.benzo.ota.utils.Tools;
+import com.benzo.ota.utils.Utils;
 
 public class AvailableActivity extends Activity implements Constants, android.view.View.OnClickListener {
 

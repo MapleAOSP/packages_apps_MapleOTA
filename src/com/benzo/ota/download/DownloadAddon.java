@@ -1,13 +1,13 @@
-package com.ota.updates.download;
+package com.benzo.ota.download;
 
 import android.app.DownloadManager;
 import android.content.Context;
 import android.net.Uri;
 import android.util.Log;
 
-import com.ota.updates.OtaUpdates;
-import com.ota.updates.utils.Constants;
-import com.ota.updates.utils.Preferences;
+import com.benzo.ota.OtaUpdates;
+import com.benzo.ota.utils.Constants;
+import com.benzo.ota.utils.Preferences;
 
 public class DownloadAddon implements Constants {
 

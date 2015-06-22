@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2015 Matt Booth (Kryten2k35).
+ * Copyright (C) 2015 Benzo Rom
  *
  * Licensed under the Attribution-NonCommercial-ShareAlike 4.0 International 
  * (the "License") you may not use this file except in compliance with the License.
@@ -14,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.ota.updates.utils;
+package com.benzo.ota.utils;
 
 import java.io.File;
 
@@ -23,7 +24,7 @@ import android.content.SharedPreferences;
 import android.util.Log;
 import android.os.Build;
 
-import com.ota.updates.R;
+import com.benzo.ota.R;
 
 public class Preferences implements Constants{
     

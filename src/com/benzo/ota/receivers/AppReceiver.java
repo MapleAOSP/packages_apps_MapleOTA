@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2015 Matt Booth (Kryten2k35).
+ * Copyright (C) 2015 Benzo Rom
  *
  * Licensed under the Attribution-NonCommercial-ShareAlike 4.0 International 
  * (the "License") you may not use this file except in compliance with the License.
@@ -14,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.ota.updates.receivers;
+package com.benzo.ota.receivers;
 
 import java.util.Iterator;
 import java.util.Set;
@@ -32,15 +33,15 @@ import android.support.v4.app.NotificationCompat;
 import android.support.v4.app.NotificationCompat.Builder;
 import android.util.Log;
 
-import com.ota.updates.OtaUpdates;
-import com.ota.updates.R;
-import com.ota.updates.RomUpdate;
-import com.ota.updates.activities.AddonActivity;
-import com.ota.updates.activities.AvailableActivity;
-import com.ota.updates.tasks.LoadUpdateManifest;
-import com.ota.updates.utils.Constants;
-import com.ota.updates.utils.Preferences;
-import com.ota.updates.utils.Utils;
+import com.benzo.ota.OtaUpdates;
+import com.benzo.ota.R;
+import com.benzo.ota.RomUpdate;
+import com.benzo.ota.activities.AddonActivity;
+import com.benzo.ota.activities.AvailableActivity;
+import com.benzo.ota.tasks.LoadUpdateManifest;
+import com.benzo.ota.utils.Constants;
+import com.benzo.ota.utils.Preferences;
+import com.benzo.ota.utils.Utils;
 
 public class AppReceiver extends BroadcastReceiver implements Constants{
 

@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2015 Matt Booth (Kryten2k35).
+ * Copyright (C) 2015 Benzo Rom
  *
  * Licensed under the Attribution-NonCommercial-ShareAlike 4.0 International 
  * (the "License") you may not use this file except in compliance with the License.
@@ -14,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.ota.updates.activities;
+package com.benzo.ota.activities;
 
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;
@@ -40,11 +41,11 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.util.SparseBooleanArray;
 
-import com.ota.updates.R;
-import com.ota.updates.utils.Constants;
-import com.ota.updates.utils.Preferences;
-import com.ota.updates.utils.Tools;
-import com.ota.updates.utils.Utils;
+import com.benzo.ota.R;
+import com.benzo.ota.utils.Constants;
+import com.benzo.ota.utils.Preferences;
+import com.benzo.ota.utils.Tools;
+import com.benzo.ota.utils.Utils;
 
 @SuppressLint("SdCardPath")
 @SuppressWarnings("deprecation")

@@ -1,7 +1,7 @@
-package com.ota.updates.download;
+package com.benzo.ota.download;
 
-import com.ota.updates.activities.AddonActivity;
-import com.ota.updates.utils.Constants;
+import com.benzo.ota.activities.AddonActivity;
+import com.benzo.ota.utils.Constants;
 import android.app.DownloadManager;
 import android.content.Context;
 import android.database.Cursor;

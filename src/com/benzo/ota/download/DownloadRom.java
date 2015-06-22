@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2015 Matt Booth (Kryten2k35).
+ * Copyright (C) 2015 Benzo Rom
  *
  * Licensed under the Attribution-NonCommercial-ShareAlike 4.0 International 
  * (the "License") you may not use this file except in compliance with the License.
@@ -14,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.ota.updates.download;
+package com.benzo.ota.download;
 
 import java.io.File;
 
@@ -22,11 +23,11 @@ import android.app.DownloadManager;
 import android.content.Context;
 import android.net.Uri;
 
-import com.ota.updates.R;
-import com.ota.updates.RomUpdate;
-import com.ota.updates.utils.Constants;
-import com.ota.updates.utils.Preferences;
-import com.ota.updates.utils.Utils;
+import com.benzo.ota.R;
+import com.benzo.ota.RomUpdate;
+import com.benzo.ota.utils.Constants;
+import com.benzo.ota.utils.Preferences;
+import com.benzo.ota.utils.Utils;
 
 public class DownloadRom implements Constants {
 	

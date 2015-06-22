@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2015 Matt Booth (Kryten2k35).
+ * Copyright (C) 2015 Benzo Rom
  *
  * Licensed under the Attribution-NonCommercial-ShareAlike 4.0 International 
  * (the "License") you may not use this file except in compliance with the License.
@@ -14,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.ota.updates.utils;
+package com.benzo.ota.utils;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -37,11 +38,11 @@ import android.support.v4.app.NotificationCompat.Builder;
 import android.support.v4.app.TaskStackBuilder;
 import android.util.Log;
 
-import com.ota.updates.R;
-import com.ota.updates.RomUpdate;
-import com.ota.updates.activities.AvailableActivity;
-import com.ota.updates.activities.MainActivity;
-import com.ota.updates.receivers.AppReceiver;
+import com.benzo.ota.R;
+import com.benzo.ota.RomUpdate;
+import com.benzo.ota.activities.AvailableActivity;
+import com.benzo.ota.activities.MainActivity;
+import com.benzo.ota.receivers.AppReceiver;
 
 public class Utils implements Constants{
 
