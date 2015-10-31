@@ -23,8 +23,8 @@
     <string name="main_no_update_available">No Update Available</string>
     <string name="main_update_filename">Filename</string>
     <string name="main_update_progress">Download Progress</string>
-    <string name="main_website">XDA Thread</string>
-    <string name="main_website_summary">Visit Benzo\'s XDA thread</string>
+    <string name="main_website">Google+ Community</string>
+    <string name="main_website_summary">Visit Benzo Roms\'s Google+ Community</string>
     <string name="main_donate">Donate</string>
     <string name="main_donate_summary">Donate to the ROM developer</string>
     <string name="main_tap_to_download">Tap to download</string>
