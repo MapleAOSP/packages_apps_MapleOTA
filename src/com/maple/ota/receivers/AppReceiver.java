@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.benzo.ota.receivers;
+package com.maple.ota.receivers;
 
 import java.util.Iterator;
 import java.util.Set;
@@ -33,15 +33,15 @@ import android.support.v4.app.NotificationCompat;
 import android.support.v4.app.NotificationCompat.Builder;
 import android.util.Log;
 
-import com.benzo.ota.OtaUpdates;
-import com.benzo.ota.R;
-import com.benzo.ota.RomUpdate;
-import com.benzo.ota.activities.AddonActivity;
-import com.benzo.ota.activities.AvailableActivity;
-import com.benzo.ota.tasks.LoadUpdateManifest;
-import com.benzo.ota.utils.Constants;
-import com.benzo.ota.utils.Preferences;
-import com.benzo.ota.utils.Utils;
+import com.maple.ota.OtaUpdates;
+import com.maple.ota.R;
+import com.maple.ota.RomUpdate;
+import com.maple.ota.activities.AddonActivity;
+import com.maple.ota.activities.AvailableActivity;
+import com.maple.ota.tasks.LoadUpdateManifest;
+import com.maple.ota.utils.Constants;
+import com.maple.ota.utils.Preferences;
+import com.maple.ota.utils.Utils;
 
 public class AppReceiver extends BroadcastReceiver implements Constants{
 

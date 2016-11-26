@@ -1,4 +1,4 @@
-package com.benzo.ota;
+package com.maple.ota;
 
 public class Addon {
 	

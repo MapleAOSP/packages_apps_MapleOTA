@@ -1,4 +1,4 @@
-package com.benzo.ota.tasks;
+package com.maple.ota.tasks;
 
 import java.io.File;
 import java.io.IOException;
@@ -12,8 +12,8 @@ import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
-import com.benzo.ota.Addon;
-import com.benzo.ota.utils.Constants;
+import com.maple.ota.Addon;
+import com.maple.ota.utils.Constants;
 
 import android.content.Context;
 import android.util.Log;

@@ -32,9 +32,9 @@
     <string name="are_you_sure">Are you sure?</string>
     <string name="available_delete_confirm_message">Are you sure you want to delete the downloaded file?</string>
     <string name="available_reboot_confirm">Would you like to reboot now?</string>
-    <string name="available_url_error">URL Error: Please contact xanaxdroid</string>
+    <string name="available_url_error">URL Error: Please contact frap129</string>
     <string name="available_reboot_manual_title">Please reboot now</string>
-    <string name="available_reboot_manual_message">Please reboot to recovery and flash Benzo.\n\nYou can find it in /sdcard/BenzoOTA</string>
+    <string name="available_reboot_manual_message">Please reboot to recovery and flash MapleAOSP.\n\nYou can find it in /sdcard/MapleOTA</string>
     <string name="available_wrong_network_title">Wrong network selected</string>
     <string name="available_wrong_network_message">You are trying to download over your mobile network, and the settings only allow Wi-Fi. Please change the settings accordingly.</string>
 

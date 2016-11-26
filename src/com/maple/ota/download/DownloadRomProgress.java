@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.benzo.ota.download;
+package com.maple.ota.download;
 
 import android.app.Activity;
 import android.app.DownloadManager;
@@ -25,10 +25,10 @@ import android.database.CursorIndexOutOfBoundsException;
 import android.os.AsyncTask;
 import android.util.Log;
 
-import com.benzo.ota.activities.AvailableActivity;
-import com.benzo.ota.activities.MainActivity;
-import com.benzo.ota.utils.Constants;
-import com.benzo.ota.utils.Preferences;
+import com.maple.ota.activities.AvailableActivity;
+import com.maple.ota.activities.MainActivity;
+import com.maple.ota.utils.Constants;
+import com.maple.ota.utils.Preferences;
 
 public class DownloadRomProgress  extends AsyncTask<Long, Integer, Void> implements Constants {
 	

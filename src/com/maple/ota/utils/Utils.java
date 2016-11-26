@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.benzo.ota.utils;
+package com.maple.ota.utils;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -38,11 +38,11 @@ import android.support.v4.app.NotificationCompat.Builder;
 import android.support.v4.app.TaskStackBuilder;
 import android.util.Log;
 
-import com.benzo.ota.R;
-import com.benzo.ota.RomUpdate;
-import com.benzo.ota.activities.AvailableActivity;
-import com.benzo.ota.activities.MainActivity;
-import com.benzo.ota.receivers.AppReceiver;
+import com.maple.ota.R;
+import com.maple.ota.RomUpdate;
+import com.maple.ota.activities.AvailableActivity;
+import com.maple.ota.activities.MainActivity;
+import com.maple.ota.receivers.AppReceiver;
 
 public class Utils implements Constants{
 

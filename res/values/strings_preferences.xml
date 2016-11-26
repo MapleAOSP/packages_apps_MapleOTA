@@ -19,7 +19,7 @@
 <resources>
 
     <string name="preferences_name">Settings</string>
-    <string name="download_folder" translatable="false">/sdcard/BenzoOTA</string>
+    <string name="download_folder" translatable="false">/sdcard/MapleOTA</string>
     <string name="list_summary" translatable="false">%s</string>
     <string name="twrp_ors_cat" translatable="false">OpenRecoveryScript</string>
     <string name="twrp_ors_title">Enable OpenRecoveryScript</string>

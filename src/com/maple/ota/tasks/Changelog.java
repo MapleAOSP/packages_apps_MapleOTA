@@ -1,4 +1,4 @@
-package com.benzo.ota.tasks;
+package com.maple.ota.tasks;
 
 import in.uncod.android.bypass.Bypass;
 
@@ -22,7 +22,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
-import com.benzo.ota.R;
+import com.maple.ota.R;
 
 public class Changelog extends AsyncTask<Void, Void, String> {
 

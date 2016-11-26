@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.benzo.ota.utils;
+package com.maple.ota.utils;
 
 import android.os.Environment;
 
@@ -26,7 +26,7 @@ public interface Constants {
 
 	// Storage
 	public static final String SD_CARD 								= Environment.getExternalStorageDirectory().getAbsolutePath();
-	public static final String OTA_DOWNLOAD_DIR 					= "BenzoOTA";
+	public static final String OTA_DOWNLOAD_DIR 					= "MapleOTA";
 	public static final String INSTALL_AFTER_FLASH_DIR 				= "InstallAfterFlash";
 
 	// Networks
@@ -64,10 +64,10 @@ public interface Constants {
 	public static final String FIRST_RUN 							= "first_run";
 
 	// Broadcast intents
-	public static String MANIFEST_LOADED 							= "com.benzo.ota.MANIFEST_LOADED";
-	public static String MANIFEST_CHECK_BACKGROUND 					= "com.benzo.ota.MANIFEST_CHECK_BACKGROUND";
-	public static String START_UPDATE_CHECK 						= "com.benzo.ota.START_UPDATE_CHECK";
-	public static String IGNORE_RELEASE 							= "com.benzo.ota.IGNORE_RELEASE";
+	public static String MANIFEST_LOADED 							= "com.maple.ota.MANIFEST_LOADED";
+	public static String MANIFEST_CHECK_BACKGROUND 					= "com.maple.ota.MANIFEST_CHECK_BACKGROUND";
+	public static String START_UPDATE_CHECK 						= "com.maple.ota.START_UPDATE_CHECK";
+	public static String IGNORE_RELEASE 							= "com.maple.ota.IGNORE_RELEASE";
 
 	//Notification
 	public static final int NOTIFICATION_ID 						= 101;

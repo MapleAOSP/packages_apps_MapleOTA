@@ -1,4 +1,4 @@
-package com.benzo.ota.activities;
+package com.maple.ota.activities;
 
 import in.uncod.android.bypass.Bypass;
 
@@ -36,14 +36,14 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toolbar;
 
-import com.benzo.ota.Addon;
-import com.benzo.ota.R;
-import com.benzo.ota.RomUpdate;
-import com.benzo.ota.download.DownloadAddon;
-import com.benzo.ota.tasks.AddonXmlParser;
-import com.benzo.ota.utils.Constants;
-import com.benzo.ota.utils.Preferences;
-import com.benzo.ota.utils.Utils;
+import com.maple.ota.Addon;
+import com.maple.ota.R;
+import com.maple.ota.RomUpdate;
+import com.maple.ota.download.DownloadAddon;
+import com.maple.ota.tasks.AddonXmlParser;
+import com.maple.ota.utils.Constants;
+import com.maple.ota.utils.Preferences;
+import com.maple.ota.utils.Utils;
 
 public class AddonActivity extends Activity implements Constants {
 

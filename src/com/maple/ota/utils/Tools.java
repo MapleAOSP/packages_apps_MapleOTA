@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.benzo.ota.utils;
+package com.maple.ota.utils;
 
 import java.io.BufferedReader;
 import java.io.DataOutputStream;

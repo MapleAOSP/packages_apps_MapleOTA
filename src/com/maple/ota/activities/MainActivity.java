@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.benzo.ota.activities;
+package com.maple.ota.activities;
 
 import java.io.File;
 import java.text.SimpleDateFormat;
@@ -51,13 +51,13 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toolbar;
 
-import com.benzo.ota.R;
-import com.benzo.ota.RomUpdate;
-import com.benzo.ota.tasks.Changelog;
-import com.benzo.ota.tasks.LoadUpdateManifest;
-import com.benzo.ota.utils.Constants;
-import com.benzo.ota.utils.Preferences;
-import com.benzo.ota.utils.Utils;
+import com.maple.ota.R;
+import com.maple.ota.RomUpdate;
+import com.maple.ota.tasks.Changelog;
+import com.maple.ota.tasks.LoadUpdateManifest;
+import com.maple.ota.utils.Constants;
+import com.maple.ota.utils.Preferences;
+import com.maple.ota.utils.Utils;
 
 public class MainActivity extends Activity implements Constants{
 

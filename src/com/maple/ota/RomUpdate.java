@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.benzo.ota;
+package com.maple.ota;
 
 
 import java.io.File;
@@ -23,7 +23,7 @@ import java.io.File;
 import android.content.Context;
 import android.content.SharedPreferences;
 
-import com.benzo.ota.utils.Constants;
+import com.maple.ota.utils.Constants;
 
 public class RomUpdate implements Constants {
     

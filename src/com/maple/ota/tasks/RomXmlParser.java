@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.benzo.ota.tasks;
+package com.maple.ota.tasks;
 
 import java.io.File;
 import java.io.IOException;
@@ -30,9 +30,9 @@ import org.xml.sax.helpers.DefaultHandler;
 import android.content.Context;
 import android.util.Log;
 
-import com.benzo.ota.RomUpdate;
-import com.benzo.ota.utils.Constants;
-import com.benzo.ota.utils.Utils;
+import com.maple.ota.RomUpdate;
+import com.maple.ota.utils.Constants;
+import com.maple.ota.utils.Utils;
 
 public class RomXmlParser extends DefaultHandler implements Constants {
 

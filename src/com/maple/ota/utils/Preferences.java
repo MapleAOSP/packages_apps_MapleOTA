@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.benzo.ota.utils;
+package com.maple.ota.utils;
 
 import java.io.File;
 
@@ -24,7 +24,7 @@ import android.content.SharedPreferences;
 import android.util.Log;
 import android.os.Build;
 
-import com.benzo.ota.R;
+import com.maple.ota.R;
 
 public class Preferences implements Constants{
     

@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.benzo.ota.activities;
+package com.maple.ota.activities;
 
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;
@@ -41,11 +41,11 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.util.SparseBooleanArray;
 
-import com.benzo.ota.R;
-import com.benzo.ota.utils.Constants;
-import com.benzo.ota.utils.Preferences;
-import com.benzo.ota.utils.Tools;
-import com.benzo.ota.utils.Utils;
+import com.maple.ota.R;
+import com.maple.ota.utils.Constants;
+import com.maple.ota.utils.Preferences;
+import com.maple.ota.utils.Tools;
+import com.maple.ota.utils.Utils;
 
 @SuppressLint("SdCardPath")
 @SuppressWarnings("deprecation")

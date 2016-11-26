@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.benzo.ota.download;
+package com.maple.ota.download;
 
 import java.io.File;
 
@@ -23,11 +23,11 @@ import android.app.DownloadManager;
 import android.content.Context;
 import android.net.Uri;
 
-import com.benzo.ota.R;
-import com.benzo.ota.RomUpdate;
-import com.benzo.ota.utils.Constants;
-import com.benzo.ota.utils.Preferences;
-import com.benzo.ota.utils.Utils;
+import com.maple.ota.R;
+import com.maple.ota.RomUpdate;
+import com.maple.ota.utils.Constants;
+import com.maple.ota.utils.Preferences;
+import com.maple.ota.utils.Utils;
 
 public class DownloadRom implements Constants {
 	

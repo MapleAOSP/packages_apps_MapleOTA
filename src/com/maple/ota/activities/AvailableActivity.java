@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.benzo.ota.activities;
+package com.maple.ota.activities;
 
 import in.uncod.android.bypass.Bypass;
 import android.annotation.SuppressLint;
@@ -43,15 +43,15 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.Toolbar;
 
-import com.benzo.ota.R;
-import com.benzo.ota.RomUpdate;
-import com.benzo.ota.download.DownloadRom;
-import com.benzo.ota.download.DownloadRomProgress;
-import com.benzo.ota.tasks.GenerateRecoveryScript;
-import com.benzo.ota.utils.Constants;
-import com.benzo.ota.utils.Preferences;
-import com.benzo.ota.utils.Tools;
-import com.benzo.ota.utils.Utils;
+import com.maple.ota.R;
+import com.maple.ota.RomUpdate;
+import com.maple.ota.download.DownloadRom;
+import com.maple.ota.download.DownloadRomProgress;
+import com.maple.ota.tasks.GenerateRecoveryScript;
+import com.maple.ota.utils.Constants;
+import com.maple.ota.utils.Preferences;
+import com.maple.ota.utils.Tools;
+import com.maple.ota.utils.Utils;
 
 public class AvailableActivity extends Activity implements Constants, android.view.View.OnClickListener {
 

@@ -1,7 +1,7 @@
-package com.benzo.ota.download;
+package com.maple.ota.download;
 
-import com.benzo.ota.activities.AddonActivity;
-import com.benzo.ota.utils.Constants;
+import com.maple.ota.activities.AddonActivity;
+import com.maple.ota.utils.Constants;
 import android.app.DownloadManager;
 import android.content.Context;
 import android.database.Cursor;

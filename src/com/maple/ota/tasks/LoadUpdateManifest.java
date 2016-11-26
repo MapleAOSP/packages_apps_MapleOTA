@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.benzo.ota.tasks;
+package com.maple.ota.tasks;
 
 import java.io.BufferedInputStream;
 import java.io.File;
@@ -30,9 +30,9 @@ import android.content.Intent;
 import android.os.AsyncTask;
 import android.util.Log;
 
-import com.benzo.ota.R;
-import com.benzo.ota.utils.Constants;
-import com.benzo.ota.utils.Utils;
+import com.maple.ota.R;
+import com.maple.ota.utils.Constants;
+import com.maple.ota.utils.Utils;
 
 public  class LoadUpdateManifest extends AsyncTask<Void, Void, Void> implements Constants {
     
