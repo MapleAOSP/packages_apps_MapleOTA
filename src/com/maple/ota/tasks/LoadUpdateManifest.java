@@ -76,6 +76,7 @@ public  class LoadUpdateManifest extends AsyncTask<Void, Void, Void> implements 
 
             URL url = new URL(Utils.getProp("ro.ota.manifest"));
             URLConnection connection = url.openConnection();
+            connection.setRequestProperty("Content-Type", "text/xml; charset=utf-8");
             connection.connect();
             // download the file
             input = new BufferedInputStream(url.openStream());
