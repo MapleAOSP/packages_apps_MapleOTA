@@ -64,35 +64,33 @@ public class GenerateRecoveryScript extends AsyncTask<Void, String, Boolean> imp
 			mScript.append("wipe dalvik" + NEW_LINE);
 		}
 
-		mScript.append("install " + "/sdcard" 
-				+ File.separator 
+		mScript.append("install " + "/sdcard/"  
 				+ OTA_DOWNLOAD_DIR 
-				+ File.separator 
+				+ "/" 
 				+ mFilename 
 				+ NEW_LINE);
 
-		File installAfterFlashDir = new File("/sdcard"
-				+ File.separator 
+		File installAfterFlashDir = new File("/sdcard/"
 				+ OTA_DOWNLOAD_DIR 
-				+ File.separator 
+				+ "/" 
 				+ INSTALL_AFTER_FLASH_DIR);
 		File[] filesArr = installAfterFlashDir.listFiles();
 		if(filesArr != null && filesArr.length > 0) {
 			for(int i = 0; i < filesArr.length; i++) {
 				mScript.append("install " 
-						+ "/sdcard" 
+						+ "/sdcard/" 
 						+ OTA_DOWNLOAD_DIR 
-						+ File.separator 
+						+ "/" 
 						+ INSTALL_AFTER_FLASH_DIR 
-						+ File.separator 
+						+ "/"
 						+ filesArr[i].getName());
 				if(DEBUGGING)
 					Log.d(TAG, "install " 
 							+ "/sdcard/" 
 							+ OTA_DOWNLOAD_DIR 
-							+ File.separator 
+							+ "/" 
 							+ INSTALL_AFTER_FLASH_DIR 
-							+ File.separator 
+							+ "/" 
 							+ filesArr[i].getName());
 			}
 		}
@@ -101,9 +99,9 @@ public class GenerateRecoveryScript extends AsyncTask<Void, String, Boolean> imp
 			mScript.append("cmd rm -rf " 
 					+ "/sdcard/" 
 					+ OTA_DOWNLOAD_DIR 
-					+ File.separator 
+					+ "/"
 					+ INSTALL_AFTER_FLASH_DIR 
-					+ File.separator 
+					+ "/" 
 					+ mFilename 
 					+ NEW_LINE);
 		}
